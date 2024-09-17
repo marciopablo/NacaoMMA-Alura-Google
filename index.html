@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nação MMA</title>
+    <!--linka a pasta de CSS com o nosso codigo html-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <reader>
+        <h1>Melhores lutadores de MMA  de Todos os Tempos. <br>Hall da fama.</h1>
+    </reader>
+
+    <main>
+        <!--Uma sessao para um botao-->
+        <section>
+            <input type="text" placeholder="G.O.A.T." id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <!--Uma sessao para os resultados da pesquisa-->
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+        </section>
+    </main>
+
+        <footer>
+            <p>2024 - Nação MMA. Todos os direitos reservados. 
+            <br> Acompanhe nosso trabalho pelo instagram: <a href="https://www.instagram.com/marcio_pablo.1/" target="_blank">@marcio_pablo.1</a></p>
+        </footer>
+    <!--linka a pasta dados do JS com o nosso codigo html-->
+    <script src="dados.js"></script>
+    <!--linka a pasta app do JS com o nosso codigo html-->
+    <script src="app.js"></script>
+</body>
+</html>
