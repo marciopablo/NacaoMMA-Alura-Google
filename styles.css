@@ -4,7 +4,10 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background-image: url(imagens/poatan3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* background-color: #DDDDDD;*/ /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -13,11 +16,22 @@ body {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
+/*Uma pelicula sobre o body*/
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.384); /* Cor de sobreposição preta com 30% de opacidade */
+    z-index: -1; /* Garante que a camada de sobreposição fique atrás do conteúdo */
+}
 
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #fefeff; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -37,9 +51,14 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: #27282a; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
+    background-color: #ffffff77; /* Inclui padding e border na largura total */
+}
+
+input::placeholder {
+    color: #ffffff;
 }
 
 /* Estiliza os botões dentro das seções */
@@ -97,8 +116,10 @@ section button:hover {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
+    color: #dde0e6; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
+    text-align: justify;
+    font-weight: bold;
 }
 
 /* Estiliza o rodapé da página */
@@ -164,3 +185,103 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
+
+
+/*Adicionei ao codigo depois a estilização da barra de rolagem*/
+.resultados-pesquisa::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem vertical */
+    height: 12px; /* Altura da barra de rolagem horizontal */
+}
+/* Estiliza o "polegar" da barra de rolagem (a parte que você arrasta) */
+.resultados-pesquisa::-webkit-scrollbar-thumb {
+    background-color:  #272727; /* Cor de fundo do polegar */
+    border-radius: 10px; /* Borda arredondada do polegar */
+}
+/* Estiliza a área de "trilho" da barra de rolagem (o fundo da barra) */
+.resultados-pesquisa::-webkit-scrollbar-track {
+    background-color:  #ecf2f377; /* Cor de fundo da área de trilho */
+    border-radius: 10px; /* Borda arredondada da área de trilho */
+}
+/* Estiliza a barra de rolagem quando o usuário está passando o mouse sobre ela */
+.resultados-pesquisa::-webkit-scrollbar-thumb:hover {
+    background-color: #cd0505; /* Cor de fundo do polegar ao passar o mouse */
+}
+
+
+/*estiliza os links e links fake*/
+.linkcopy {
+    color: #ece5e5;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold; /* Torna a fonte mais grossa */
+  
+    /* Efeitos ao passar o mouse */
+    &:hover {
+      color: #ed09e5; /* Muda a cor ao passar o mouse */
+      text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    }
+  }
+
+
+  /*estiliza os links e links fake*/
+.linkcopy2 {
+    color: #131212;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold; /* Torna a fonte mais grossa */
+  
+    /* Efeitos ao passar o mouse */
+    &:hover {
+      color: #ed09e5; /* Muda a cor ao passar o mouse */
+      text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    }
+  }
+
+  /* Estiliza os títulos h2 */
+h2 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #fefeff; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+ 
+/*Moudando as imagens do linkedln*/
+.container {
+    width: 40px;
+    border: 1px solid  #fc0606;;
+    padding: 0px;
+  }
+  /*Posicao*/
+  .imagem-posicionada {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+/*moudando a imagem do instagram*/
+.container {
+    width: 40px;
+    border: 1px solid  #fc0606;;
+    padding: 0px;
+  }
+  .imagem-posicao {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+
+  a img {
+    /* Estilos para a imagem dentro do link */
+    border: none; /* Remove a borda padrão dos links */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  }
+  a:hover img {
+    /* Estilos para a imagem quando o mouse passa por cima */
+    opacity: 0.7; /* Diminui a opacidade */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
+  }
+  a:active img {
+    /* Estilos para a imagem quando o link é clicado */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+  }
+
+/*Esse é meu Primeiro cógio e primeiro Projeto, Entao algumas coisas estao fora do lugar, por opcao minha para facilitar os meus estudos fulturos.*/
