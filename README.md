@@ -2,7 +2,7 @@
 
 **Descrição:**
 
-Com a Nação MMA, você pode mergulhar no mundo das Artes Marciais Mistas e descobrir tudo sobre os maiores lutadores de todos os tempos. Meu projeto é uma aplicação web desenvolvida com HTML, CSS e JavaScript que permite aos usuários pesquisar por lutadores através de um banco de dados local. A aplicação oferece uma interface intuitiva para buscar informações como nome, apelido, arte marcial ou qualquer outra palavra-chave, fornecendo, assim, informações detalhadas sobre cada um dos atletas. 
+Com a Nação MMA, você pode mergulhar no mundo das Artes Marciais Mistas e descobrir tudo sobre os maiores lutadores de todos os tempos. Meu projeto é uma aplicação web desenvolvida com JavaScript, CSS e Html  que permite aos usuários pesquisar por lutadores através de um banco de dados local. A aplicação oferece uma interface intuitiva para buscar informações como nome, apelido, arte marcial ou qualquer outra palavra-chave, fornecendo, assim, informações detalhadas sobre cada um dos atletas. 
 
 div align="center"
 img src="![WhatsApp Image 2024-09-19 at 08 37 19](https://github.com/user-attachments/assets/a6b5513f-9795-4511-881b-f6f8ba838439)" width="700px" /
