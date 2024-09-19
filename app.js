@@ -32,13 +32,17 @@ function pesquisar() {
         //entao faca...
     // Construímos o HTML para cada item do resultado
     resultados += `
-    <div class="item-resultado">
-      <h2>${dado.titulo}</h2>
+    <div class="sessao-transparente" class="item-resultado">
+      <h2>
+      <a class="linkcopy" href=${dado.link3} target="_blank" rel="noopener noreferrer">${dado.titulo}</a>
+      </h2>
+      <a href=${dado.link2} target="_blank" rel="noopener noreferrer"><img src=${dado.imagem} alt="Descrição da imagem"></a>
       <p class="descricao-meta">
-      ${dado.descricao} <br>
-      <a href="${dado.link}" target="_blank">Saber mais</a>
+      ${dado.descricao}<br>
       </p>
+      <a  class="linkcopy" href="${dado.link}" target="_blank" rel="noopener noreferrer">Saber mais...</a>
     </div>
+    <br>
     `;
     }
   }
