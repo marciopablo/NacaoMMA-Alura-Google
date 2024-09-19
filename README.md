@@ -3,7 +3,7 @@
 **Descrição:**
 
 A Nação MMA é uma aplicação web desenvolvida com HTML, CSS e JavaScript que permite aos usuários pesquisar por lutadores de MMA através de um banco de dados local. A aplicação oferece uma interface intuitiva para buscar informações como nome, apelido, arte marcial ou qualquer outra palavra-chave, fornecendo, assim, informações detalhadas sobre cada um deles.
-Com a Nação MMA, você pode mergulhar no mundo do MMA e descobrir tudo sobre os maiores lutadores de MMA de todos os tempos. 
+Com a Nação MMA, você pode mergulhar no mundo das Artes Marciais Mistas e descobrir tudo sobre os maiores lutadores de todos os tempos. 
 
 **Funcionalidades:**
 
