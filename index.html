@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informações sobre os grandes lutadores de mma da história." />
     <title>Nação MMA</title>
+
     <!--linka a pasta de CSS com o nosso codigo html-->
     <link rel="stylesheet" href="styles.css">
+
+    <!--icone do site (favicon.io)-->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
+</head>
+
 <body>
     <reader>
         <h1>Melhores lutadores de MMA  de Todos os Tempos. <br>Hall da fama.</h1>
     </reader>
 
     <main>
-        <!--Uma sessao para um botao-->
+        <!--Botao de pesquisa-->
         <section>
-            <input type="text" placeholder="G.O.A.T." id="campo-pesquisa">
+            <input type="text" placeholder="Busque um Lutador. Ex: nome, apelido, arte marcial, ..." id="campo-pesquisa">
             <button onclick="pesquisar()">Pesquisar</button>
         </section>
 
         <!--Uma sessao para os resultados da pesquisa-->
-        <section class="resultados-pesquisa"
-        id="resultados-pesquisa">
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
 
         <footer>
-            <p>2024 - Nação MMA. Todos os direitos reservados. 
-            <br> Acompanhe nosso trabalho pelo instagram: <a href="https://www.instagram.com/marcio_pablo.1/" target="_blank">@marcio_pablo.1</a></p>
+            <p>&copy; Nação MMA. Site criado por: <a class="linkcopy2" href="https://github.com/marciopablo" target="_blank" rel="noopener noreferrer">Márcio Pablo</a>
+                <a href="https://www.linkedin.com/in/m%C3%A1rcio-pablo-1144102a1/" target="_blank" rel="noopener noreferrer">
+                    <img class="container" class="imagem-posicionada" src="imagens/linkedln.png" alt="Linkedln">
+                </a>
+                <a href="https://www.instagram.com/marcio_pablo.1/" target="_blank" rel="noopener noreferrer">
+                    <img class="container" class="imagem-posicao" src="imagens/insta (1).png" alt="instagram">
+                </a>
+            </p>
         </footer>
     <!--linka a pasta dados do JS com o nosso codigo html-->
     <script src="dados.js"></script>
