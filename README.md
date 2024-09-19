@@ -2,14 +2,23 @@
 
 **Descrição:**
 
-A Nação MMA é uma aplicação web desenvolvida com HTML, CSS e JavaScript que permite aos usuários pesquisar por lutadores de MMA através de um banco de dados local. A aplicação oferece uma interface intuitiva para buscar informações como nome, apelido, arte marcial ou qualquer outra palavra-chave, fornecendo, assim, informações detalhadas sobre cada um deles.
-Com a Nação MMA, você pode mergulhar no mundo das Artes Marciais Mistas e descobrir tudo sobre os maiores lutadores de todos os tempos. 
+Com a Nação MMA, você pode mergulhar no mundo das Artes Marciais Mistas e descobrir tudo sobre os maiores lutadores de todos os tempos. Meu projeto é uma aplicação web desenvolvida com HTML, CSS e JavaScript que permite aos usuários pesquisar por lutadores através de um banco de dados local. A aplicação oferece uma interface intuitiva para buscar informações como nome, apelido, arte marcial ou qualquer outra palavra-chave, fornecendo, assim, informações detalhadas sobre cada um dos atletas. 
+
+div align="center"
+img src="![WhatsApp Image 2024-09-19 at 08 37 19](https://github.com/user-attachments/assets/a6b5513f-9795-4511-881b-f6f8ba838439)" width="700px" /
+/div
+
 
 **Funcionalidades:**
 
 * **Pesquisa:** Permite realizar buscas por palavras-chave em nomes, apelidos, artes marciais e descrições dos lutadores.
 * **Resultados dinâmicos:** Exibe os resultados da pesquisa de forma clara e concisa, com informações relevantes como nome, imagem, biografia e links para mais informações.
 * **Interface intuitiva:** Possui uma interface simples e fácil de usar, facilitando a navegação e a busca por informações.
+
+div align="center"
+img src="![WhatsApp Image 2024-09-19 at 08 13 14](https://github.com/user-attachments/assets/f73a48d5-868d-417e-aed9-6db7f4cb3015)" width="700px" /
+/div
+
 
 **Tecnologias Utilizadas:**
 
